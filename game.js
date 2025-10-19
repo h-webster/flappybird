@@ -1,6 +1,6 @@
-import { generatePipe, updatePipes, drawPipes, detectCollision, resetPipes } from "/pipes.js"
-import { score, setScore } from "/gameInfo.js";
-import { updateBackgrounds, drawBackgrounds, initBackground } from "/background.js";
+import { generatePipe, updatePipes, drawPipes, detectCollision, resetPipes } from "./pipes.js"
+import { score, setScore } from "./gameInfo.js";
+import { updateBackgrounds, drawBackgrounds, initBackground } from "./background.js";
 
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext("2d");
