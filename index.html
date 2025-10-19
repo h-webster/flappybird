@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy bird</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="canvas-container">
+        <canvas id="canvas" width="800" height="500"></canvas>
+    </div>
+    <audio id="point">
+        <source src="sounds/point.wav">
+    </audio>
+    <audio id="hit">
+        <source src="sounds/hit.wav">
+    </audio>
+    <audio id="wing">
+        <source src="sounds/wing.wav">
+    </audio>
+    <div class="imgs">
+        <img id="bird" src="images/bird.png">
+        <img id="pipe" src="images/pipe.png">
+        <img id="background" src="images/background.png">
+    </div>
+    <script src="game.js" type="module"></script>
+</body>
+</html>

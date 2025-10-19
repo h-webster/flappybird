@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+.canvas-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+canvas {
+    background-color: black;
+    border: 2px solid black;
+}
+.imgs {
+    visibility: hidden;
+    position: fixed;
+}
